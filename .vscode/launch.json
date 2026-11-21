@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "1. Chạy Web App (Localhost:8000)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/web_app.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "2. Chạy Thực Nghiệm Hàng Loạt (run_experiments.py)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/run_experiments.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}

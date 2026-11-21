@@ -1,0 +1,8 @@
+﻿algorithm,reference,max_abs_error,mean_abs_error,status
+Lọc trung bình (Mean Filter 3x3),"cv2.blur(img, (3,3))",0.0,0.0,ĐẠT (Khớp chuẩn)
+Lọc trung bình (Mean Filter 5x5),"cv2.blur(img, (5,5))",0.0,0.0,ĐẠT (Khớp chuẩn)
+Lọc trung bình (Mean Filter 7x7),"cv2.blur(img, (7,7))",0.0,0.0,ĐẠT (Khớp chuẩn)
+Lọc trung vị (Median Filter 3x3),"cv2.medianBlur(img, 3)",0.0,0.0,ĐẠT (Khớp tuyệt đối 100%)
+Lọc trung vị (Median Filter 5x5),"cv2.medianBlur(img, 5)",0.0,0.0,ĐẠT (Khớp tuyệt đối 100%)
+Lọc trung vị (Median Filter 7x7),"cv2.medianBlur(img, 7)",0.0,0.0,ĐẠT (Khớp tuyệt đối 100%)
+"Toán tử Sobel 3x3 (Gx, Gy, Gradient Magnitude)","cv2.Sobel(img, cv2.CV_64F, dx, dy, ksize=3)",0.0,0.0,ĐẠT (Khớp tuyệt đối 100%)
